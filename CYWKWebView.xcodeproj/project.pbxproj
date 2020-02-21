@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36049C4323FF81A9002F593B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36049C4223FF81A9002F593B /* AppDelegate.m */; };
+		36049C4623FF81A9002F593B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36049C4523FF81A9002F593B /* SceneDelegate.m */; };
+		36049C4923FF81A9002F593B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36049C4823FF81A9002F593B /* ViewController.m */; };
+		36049C4C23FF81A9002F593B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36049C4A23FF81A9002F593B /* Main.storyboard */; };
+		36049C4E23FF81AB002F593B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36049C4D23FF81AB002F593B /* Assets.xcassets */; };
+		36049C5123FF81AB002F593B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36049C4F23FF81AB002F593B /* LaunchScreen.storyboard */; };
+		36049C5423FF81AB002F593B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36049C5323FF81AB002F593B /* main.m */; };
+		36049C5E23FF81AB002F593B /* CYWKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36049C5D23FF81AB002F593B /* CYWKWebViewTests.m */; };
+		36049C6923FF81AB002F593B /* CYWKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36049C6823FF81AB002F593B /* CYWKWebViewUITests.m */; };
+		3FB6755B9635E6559E3A635D /* Pods_CYWKWebView_CYWKWebViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C36C8B62424A969C184A36 /* Pods_CYWKWebView_CYWKWebViewUITests.framework */; };
+		93BCB0C1B0602384EFDF351E /* Pods_CYWKWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BB47F0974551F34BE2D321 /* Pods_CYWKWebView.framework */; };
+		CDBBF452816B226816EBAB9C /* Pods_CYWKWebViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331EDAE940926A846E5FAC21 /* Pods_CYWKWebViewTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36049C5A23FF81AB002F593B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36049C3623FF81A9002F593B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36049C3D23FF81A9002F593B;
+			remoteInfo = CYWKWebView;
+		};
+		36049C6523FF81AB002F593B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36049C3623FF81A9002F593B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36049C3D23FF81A9002F593B;
+			remoteInfo = CYWKWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FDAFC7E5E29764ECB61070 /* Pods-CYWKWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYWKWebView.debug.xcconfig"; path = "Target Support Files/Pods-CYWKWebView/Pods-CYWKWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		331EDAE940926A846E5FAC21 /* Pods_CYWKWebViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYWKWebViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3539129C026E49AC2E82815D /* Pods-CYWKWebView-CYWKWebViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYWKWebView-CYWKWebViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-CYWKWebView-CYWKWebViewUITests/Pods-CYWKWebView-CYWKWebViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36049C3E23FF81A9002F593B /* CYWKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYWKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36049C4123FF81A9002F593B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36049C4223FF81A9002F593B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36049C4423FF81A9002F593B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		36049C4523FF81A9002F593B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		36049C4723FF81A9002F593B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36049C4823FF81A9002F593B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36049C4B23FF81A9002F593B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36049C4D23FF81AB002F593B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36049C5023FF81AB002F593B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36049C5223FF81AB002F593B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36049C5323FF81AB002F593B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36049C5923FF81AB002F593B /* CYWKWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYWKWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36049C5D23FF81AB002F593B /* CYWKWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYWKWebViewTests.m; sourceTree = "<group>"; };
+		36049C5F23FF81AB002F593B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36049C6423FF81AB002F593B /* CYWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36049C6823FF81AB002F593B /* CYWKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYWKWebViewUITests.m; sourceTree = "<group>"; };
+		36049C6A23FF81AB002F593B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C36C8B62424A969C184A36 /* Pods_CYWKWebView_CYWKWebViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYWKWebView_CYWKWebViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1BEF50D0FDB942D5EBB453 /* Pods-CYWKWebView-CYWKWebViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYWKWebView-CYWKWebViewUITests.release.xcconfig"; path = "Target Support Files/Pods-CYWKWebView-CYWKWebViewUITests/Pods-CYWKWebView-CYWKWebViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98BB47F0974551F34BE2D321 /* Pods_CYWKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYWKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC36DDC0ADFA5E807EB4874 /* Pods-CYWKWebViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYWKWebViewTests.release.xcconfig"; path = "Target Support Files/Pods-CYWKWebViewTests/Pods-CYWKWebViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9537F6EC83DACE7AD1E20A2 /* Pods-CYWKWebViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYWKWebViewTests.debug.xcconfig"; path = "Target Support Files/Pods-CYWKWebViewTests/Pods-CYWKWebViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E788EF3B07F3D7173C3ACEC3 /* Pods-CYWKWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYWKWebView.release.xcconfig"; path = "Target Support Files/Pods-CYWKWebView/Pods-CYWKWebView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36049C3B23FF81A9002F593B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BCB0C1B0602384EFDF351E /* Pods_CYWKWebView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36049C5623FF81AB002F593B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBBF452816B226816EBAB9C /* Pods_CYWKWebViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36049C6123FF81AB002F593B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB6755B9635E6559E3A635D /* Pods_CYWKWebView_CYWKWebViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36049C3523FF81A9002F593B = {
+			isa = PBXGroup;
+			children = (
+				36049C4023FF81A9002F593B /* CYWKWebView */,
+				36049C5C23FF81AB002F593B /* CYWKWebViewTests */,
+				36049C6723FF81AB002F593B /* CYWKWebViewUITests */,
+				36049C3F23FF81A9002F593B /* Products */,
+				78CB8BC29712C6689C53A0EF /* Pods */,
+				C697747AB78C25C00B6352EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36049C3F23FF81A9002F593B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36049C3E23FF81A9002F593B /* CYWKWebView.app */,
+				36049C5923FF81AB002F593B /* CYWKWebViewTests.xctest */,
+				36049C6423FF81AB002F593B /* CYWKWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36049C4023FF81A9002F593B /* CYWKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				36049C4123FF81A9002F593B /* AppDelegate.h */,
+				36049C4223FF81A9002F593B /* AppDelegate.m */,
+				36049C4423FF81A9002F593B /* SceneDelegate.h */,
+				36049C4523FF81A9002F593B /* SceneDelegate.m */,
+				36049C4723FF81A9002F593B /* ViewController.h */,
+				36049C4823FF81A9002F593B /* ViewController.m */,
+				36049C4A23FF81A9002F593B /* Main.storyboard */,
+				36049C4D23FF81AB002F593B /* Assets.xcassets */,
+				36049C4F23FF81AB002F593B /* LaunchScreen.storyboard */,
+				36049C5223FF81AB002F593B /* Info.plist */,
+				36049C5323FF81AB002F593B /* main.m */,
+			);
+			path = CYWKWebView;
+			sourceTree = "<group>";
+		};
+		36049C5C23FF81AB002F593B /* CYWKWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				36049C5D23FF81AB002F593B /* CYWKWebViewTests.m */,
+				36049C5F23FF81AB002F593B /* Info.plist */,
+			);
+			path = CYWKWebViewTests;
+			sourceTree = "<group>";
+		};
+		36049C6723FF81AB002F593B /* CYWKWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36049C6823FF81AB002F593B /* CYWKWebViewUITests.m */,
+				36049C6A23FF81AB002F593B /* Info.plist */,
+			);
+			path = CYWKWebViewUITests;
+			sourceTree = "<group>";
+		};
+		78CB8BC29712C6689C53A0EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04FDAFC7E5E29764ECB61070 /* Pods-CYWKWebView.debug.xcconfig */,
+				E788EF3B07F3D7173C3ACEC3 /* Pods-CYWKWebView.release.xcconfig */,
+				3539129C026E49AC2E82815D /* Pods-CYWKWebView-CYWKWebViewUITests.debug.xcconfig */,
+				6E1BEF50D0FDB942D5EBB453 /* Pods-CYWKWebView-CYWKWebViewUITests.release.xcconfig */,
+				D9537F6EC83DACE7AD1E20A2 /* Pods-CYWKWebViewTests.debug.xcconfig */,
+				CBC36DDC0ADFA5E807EB4874 /* Pods-CYWKWebViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C697747AB78C25C00B6352EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98BB47F0974551F34BE2D321 /* Pods_CYWKWebView.framework */,
+				52C36C8B62424A969C184A36 /* Pods_CYWKWebView_CYWKWebViewUITests.framework */,
+				331EDAE940926A846E5FAC21 /* Pods_CYWKWebViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36049C3D23FF81A9002F593B /* CYWKWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36049C6D23FF81AB002F593B /* Build configuration list for PBXNativeTarget "CYWKWebView" */;
+			buildPhases = (
+				5C4258B0845CF68FAFFD8878 /* [CP] Check Pods Manifest.lock */,
+				36049C3A23FF81A9002F593B /* Sources */,
+				36049C3B23FF81A9002F593B /* Frameworks */,
+				36049C3C23FF81A9002F593B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYWKWebView;
+			productName = CYWKWebView;
+			productReference = 36049C3E23FF81A9002F593B /* CYWKWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36049C5823FF81AB002F593B /* CYWKWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36049C7023FF81AB002F593B /* Build configuration list for PBXNativeTarget "CYWKWebViewTests" */;
+			buildPhases = (
+				FBAD6DD160D076B75980B74C /* [CP] Check Pods Manifest.lock */,
+				36049C5523FF81AB002F593B /* Sources */,
+				36049C5623FF81AB002F593B /* Frameworks */,
+				36049C5723FF81AB002F593B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36049C5B23FF81AB002F593B /* PBXTargetDependency */,
+			);
+			name = CYWKWebViewTests;
+			productName = CYWKWebViewTests;
+			productReference = 36049C5923FF81AB002F593B /* CYWKWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36049C6323FF81AB002F593B /* CYWKWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36049C7323FF81AB002F593B /* Build configuration list for PBXNativeTarget "CYWKWebViewUITests" */;
+			buildPhases = (
+				F0524677E7C15BFD2AC42CBB /* [CP] Check Pods Manifest.lock */,
+				36049C6023FF81AB002F593B /* Sources */,
+				36049C6123FF81AB002F593B /* Frameworks */,
+				36049C6223FF81AB002F593B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36049C6623FF81AB002F593B /* PBXTargetDependency */,
+			);
+			name = CYWKWebViewUITests;
+			productName = CYWKWebViewUITests;
+			productReference = 36049C6423FF81AB002F593B /* CYWKWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36049C3623FF81A9002F593B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Candy;
+				TargetAttributes = {
+					36049C3D23FF81A9002F593B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					36049C5823FF81AB002F593B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 36049C3D23FF81A9002F593B;
+					};
+					36049C6323FF81AB002F593B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 36049C3D23FF81A9002F593B;
+					};
+				};
+			};
+			buildConfigurationList = 36049C3923FF81A9002F593B /* Build configuration list for PBXProject "CYWKWebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36049C3523FF81A9002F593B;
+			productRefGroup = 36049C3F23FF81A9002F593B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36049C3D23FF81A9002F593B /* CYWKWebView */,
+				36049C5823FF81AB002F593B /* CYWKWebViewTests */,
+				36049C6323FF81AB002F593B /* CYWKWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36049C3C23FF81A9002F593B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36049C5123FF81AB002F593B /* LaunchScreen.storyboard in Resources */,
+				36049C4E23FF81AB002F593B /* Assets.xcassets in Resources */,
+				36049C4C23FF81A9002F593B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36049C5723FF81AB002F593B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36049C6223FF81AB002F593B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C4258B0845CF68FAFFD8878 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYWKWebView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0524677E7C15BFD2AC42CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYWKWebView-CYWKWebViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBAD6DD160D076B75980B74C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYWKWebViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36049C3A23FF81A9002F593B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36049C4923FF81A9002F593B /* ViewController.m in Sources */,
+				36049C4323FF81A9002F593B /* AppDelegate.m in Sources */,
+				36049C5423FF81AB002F593B /* main.m in Sources */,
+				36049C4623FF81A9002F593B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36049C5523FF81AB002F593B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36049C5E23FF81AB002F593B /* CYWKWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36049C6023FF81AB002F593B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36049C6923FF81AB002F593B /* CYWKWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36049C5B23FF81AB002F593B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36049C3D23FF81A9002F593B /* CYWKWebView */;
+			targetProxy = 36049C5A23FF81AB002F593B /* PBXContainerItemProxy */;
+		};
+		36049C6623FF81AB002F593B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36049C3D23FF81A9002F593B /* CYWKWebView */;
+			targetProxy = 36049C6523FF81AB002F593B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36049C4A23FF81A9002F593B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36049C4B23FF81A9002F593B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36049C4F23FF81AB002F593B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36049C5023FF81AB002F593B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36049C6B23FF81AB002F593B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36049C6C23FF81AB002F593B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36049C6E23FF81AB002F593B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FDAFC7E5E29764ECB61070 /* Pods-CYWKWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYWKWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candy.WKWebView.CYWKWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36049C6F23FF81AB002F593B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E788EF3B07F3D7173C3ACEC3 /* Pods-CYWKWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYWKWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candy.WKWebView.CYWKWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36049C7123FF81AB002F593B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9537F6EC83DACE7AD1E20A2 /* Pods-CYWKWebViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYWKWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candy.WKWebView.CYWKWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYWKWebView.app/CYWKWebView";
+			};
+			name = Debug;
+		};
+		36049C7223FF81AB002F593B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC36DDC0ADFA5E807EB4874 /* Pods-CYWKWebViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYWKWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candy.WKWebView.CYWKWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYWKWebView.app/CYWKWebView";
+			};
+			name = Release;
+		};
+		36049C7423FF81AB002F593B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3539129C026E49AC2E82815D /* Pods-CYWKWebView-CYWKWebViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYWKWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candy.WKWebView.CYWKWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYWKWebView;
+			};
+			name = Debug;
+		};
+		36049C7523FF81AB002F593B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1BEF50D0FDB942D5EBB453 /* Pods-CYWKWebView-CYWKWebViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYWKWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candy.WKWebView.CYWKWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CYWKWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36049C3923FF81A9002F593B /* Build configuration list for PBXProject "CYWKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36049C6B23FF81AB002F593B /* Debug */,
+				36049C6C23FF81AB002F593B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36049C6D23FF81AB002F593B /* Build configuration list for PBXNativeTarget "CYWKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36049C6E23FF81AB002F593B /* Debug */,
+				36049C6F23FF81AB002F593B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36049C7023FF81AB002F593B /* Build configuration list for PBXNativeTarget "CYWKWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36049C7123FF81AB002F593B /* Debug */,
+				36049C7223FF81AB002F593B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36049C7323FF81AB002F593B /* Build configuration list for PBXNativeTarget "CYWKWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36049C7423FF81AB002F593B /* Debug */,
+				36049C7523FF81AB002F593B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36049C3623FF81A9002F593B /* Project object */;
+}
